@@ -1,0 +1,9 @@
+{
+  "name": "supi-rpi-daemon",
+  "version": "1.0.0",
+  "description": "Watches for pm2 crashes and sends mail reports if threshold is exceeded.",
+  "main": "index.js",
+  "repository": "https://github.com/Supinic/rpi-daemon",
+  "author": "Supinic <supinic@protonmail.com>",
+  "license": "MIT"
+}
