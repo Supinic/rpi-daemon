@@ -3,7 +3,7 @@
 	const pm = require("/usr/lib/node_modules/pm2");
 
 	const scripts = {};
-	const threshold = 0;
+	const threshold = 3;
 
 	pm.launchBus((err, bus) => {
 		bus.on("log:err", ({at, data, process}) => {
